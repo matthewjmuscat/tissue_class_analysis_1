@@ -9,6 +9,7 @@ from statsmodels.nonparametric.kernel_regression import KernelReg
 import misc_tools
 import plotly.express as px
 import plotting_funcs
+import kaleido # imported for exporting image files, although not referenced it is required
 
 def production_plot_cohort_sum_to_one_all_biopsy_voxels_binom_est_histogram_by_tissue_class(dataframe,
                                        svg_image_width,

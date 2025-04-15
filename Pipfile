@@ -11,6 +11,8 @@ seaborn = "*"
 plotly = "*"
 statsmodels = "*"
 pingouin = "*"
+pyarrow = "*"
+kaleido = "*"
 
 [dev-packages]
 

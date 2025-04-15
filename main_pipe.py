@@ -10,7 +10,7 @@ import uncertainties_analysis
 import production_plots
 import pickle
 import pathlib # imported for navigating file system
-
+import pyarrow # imported for loading parquet files, although not referenced it is required
 
 def main():
     
