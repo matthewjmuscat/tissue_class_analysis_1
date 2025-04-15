@@ -4,9 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+seaborn = "*"
+plotly = "*"
+statsmodels = "*"
 pingouin = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.13"
